@@ -7,16 +7,40 @@
 //
 
 #import "AppDelegate.h"
+#import "DSSignalHandler.h"
+#import "DSSafeFree.h"
 
 @interface AppDelegate ()
 
 @end
+
+//写入了一些导致崩溃的代码。
+//1. 提高了野指针的崩溃率。可以帮你很快找到一些隐藏的不易崩溃的错误代码。
+//2. 加入信号量的崩溃。SIGSEGV、SIGBUS、SIGABRT
+//3. 内存泄露模拟。
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    //启动异常处理
+    InstallSignalHandler();//信号量截断
+    InstallUncaughtExceptionHandler();//系统异常捕获
+    
+#if DEBUG
+    init_safe_free();
+#endif
+
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.rooViewController = [[RootViewController alloc] init];
+    self.navgationController = [[UINavigationController alloc]initWithRootViewController:self.rooViewController];
+    self.window.rootViewController = self.navgationController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
