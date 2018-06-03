@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "DSSignalHandler.h"
 #import "DSSafeFree.h"
+#import "RootViewController.h"
 
 @interface AppDelegate ()
 
@@ -36,10 +37,10 @@
 
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-    self.rooViewController = [[RootViewController alloc] init];
-    self.navgationController = [[UINavigationController alloc]initWithRootViewController:self.rooViewController];
-    self.window.rootViewController = self.navgationController;
     [self.window makeKeyAndVisible];
+    
+
+    self.window.rootViewController =  [[UINavigationController alloc] initWithRootViewController:[RootViewController new]];
     
     return YES;
 }

@@ -230,7 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				35B13B3B20C3CAA700D9A5A7 /* RoundedImage */,
-				35B13B1120C3CA1000D9A5A7 /* Classes */,
+				35B13B1120C3CA1000D9A5A7 /* Crash */,
 				3563B5E820C290FA00BA2AE0 /* XLsn0wAppCrash */,
 				3563B60120C290FC00BA2AE0 /* XLsn0wAppCrashTests */,
 				3563B60C20C290FC00BA2AE0 /* XLsn0wAppCrashUITests */,
@@ -284,15 +284,15 @@
 			path = XLsn0wAppCrashUITests;
 			sourceTree = "<group>";
 		};
-		35B13B1120C3CA1000D9A5A7 /* Classes */ = {
+		35B13B1120C3CA1000D9A5A7 /* Crash */ = {
 			isa = PBXGroup;
 			children = (
-				35B13B1220C3CA1000D9A5A7 /* DSSignalHandler.m */,
 				35B13B1320C3CA1000D9A5A7 /* Controller */,
+				35B13B1220C3CA1000D9A5A7 /* DSSignalHandler.m */,
 				35B13B2420C3CA1000D9A5A7 /* DSSignalHandler.h */,
 				35B13B2520C3CA1000D9A5A7 /* WildPointer */,
 			);
-			path = Classes;
+			path = Crash;
 			sourceTree = "<group>";
 		};
 		35B13B1320C3CA1000D9A5A7 /* Controller */ = {
