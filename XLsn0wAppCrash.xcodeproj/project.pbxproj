@@ -15,7 +15,6 @@
 		3563B5F920C290FB00BA2AE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3563B5F820C290FB00BA2AE0 /* main.m */; };
 		3563B60320C290FC00BA2AE0 /* XLsn0wAppCrashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3563B60220C290FC00BA2AE0 /* XLsn0wAppCrashTests.m */; };
 		3563B60E20C290FC00BA2AE0 /* XLsn0wAppCrashUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3563B60D20C290FC00BA2AE0 /* XLsn0wAppCrashUITests.m */; };
-		3563B61D20C2923E00BA2AE0 /* Swift4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3563B61C20C2923E00BA2AE0 /* Swift4.swift */; };
 		35B13B2E20C3CA1000D9A5A7 /* DSSignalHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B13B1220C3CA1000D9A5A7 /* DSSignalHandler.m */; };
 		35B13B2F20C3CA1000D9A5A7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B13B1420C3CA1000D9A5A7 /* RootViewController.m */; };
 		35B13B3020C3CA1000D9A5A7 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B13B1620C3CA1000D9A5A7 /* BaseViewController.m */; };
@@ -64,6 +63,7 @@
 		35B13BA820C3CAA700D9A5A7 /* DSRoundImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B13B8220C3CAA700D9A5A7 /* DSRoundImageView.m */; };
 		35B13BA920C3CAA700D9A5A7 /* RoundImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B13B8320C3CAA700D9A5A7 /* RoundImageButton.m */; };
 		35B13BAA20C3CAA700D9A5A7 /* RoundImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B13B8420C3CAA700D9A5A7 /* RoundImageView.m */; };
+		6622FA9120E622E700EE5E4F /* Swift 4.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6622FA9020E622E700EE5E4F /* Swift 4.2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,7 +101,6 @@
 		3563B60D20C290FC00BA2AE0 /* XLsn0wAppCrashUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLsn0wAppCrashUITests.m; sourceTree = "<group>"; };
 		3563B60F20C290FC00BA2AE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3563B61B20C2923E00BA2AE0 /* XLsn0wAppCrash-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XLsn0wAppCrash-Bridging-Header.h"; sourceTree = "<group>"; };
-		3563B61C20C2923E00BA2AE0 /* Swift4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift4.swift; sourceTree = "<group>"; };
 		35B13B1220C3CA1000D9A5A7 /* DSSignalHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSSignalHandler.m; sourceTree = "<group>"; };
 		35B13B1420C3CA1000D9A5A7 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		35B13B1520C3CA1000D9A5A7 /* MRCOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCOneViewController.h; sourceTree = "<group>"; };
@@ -199,6 +198,7 @@
 		35B13B8520C3CAA700D9A5A7 /* UIImage+DSRoundImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DSRoundImage.h"; sourceTree = "<group>"; };
 		35B13B8620C3CAA700D9A5A7 /* RoundImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundImageButton.h; sourceTree = "<group>"; };
 		35B13B8720C3CAA700D9A5A7 /* DSRoundImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSRoundImageView.h; sourceTree = "<group>"; };
+		6622FA9020E622E700EE5E4F /* Swift 4.2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift 4.2.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,7 +260,7 @@
 				3563B5F420C290FB00BA2AE0 /* LaunchScreen.storyboard */,
 				3563B5F720C290FB00BA2AE0 /* Info.plist */,
 				3563B5F820C290FB00BA2AE0 /* main.m */,
-				3563B61C20C2923E00BA2AE0 /* Swift4.swift */,
+				6622FA9020E622E700EE5E4F /* Swift 4.2.swift */,
 				3563B61B20C2923E00BA2AE0 /* XLsn0wAppCrash-Bridging-Header.h */,
 			);
 			path = XLsn0wAppCrash;
@@ -288,8 +288,8 @@
 			isa = PBXGroup;
 			children = (
 				35B13B1320C3CA1000D9A5A7 /* Controller */,
-				35B13B1220C3CA1000D9A5A7 /* DSSignalHandler.m */,
 				35B13B2420C3CA1000D9A5A7 /* DSSignalHandler.h */,
+				35B13B1220C3CA1000D9A5A7 /* DSSignalHandler.m */,
 				35B13B2520C3CA1000D9A5A7 /* WildPointer */,
 			);
 			path = Crash;
@@ -582,12 +582,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6622FA9120E622E700EE5E4F /* Swift 4.2.swift in Sources */,
 				35B13B9D20C3CAA700D9A5A7 /* UIImage+GIF.m in Sources */,
 				35B13B3120C3CA1000D9A5A7 /* LeakOneViewController.m in Sources */,
 				35B13BA520C3CAA700D9A5A7 /* UIView+WebCacheOperation.m in Sources */,
 				35B13B8920C3CAA700D9A5A7 /* RootViewController.m in Sources */,
 				35B13B3820C3CA1000D9A5A7 /* fishhook.c in Sources */,
-				3563B61D20C2923E00BA2AE0 /* Swift4.swift in Sources */,
 				3563B5EE20C290FA00BA2AE0 /* ViewController.m in Sources */,
 				35B13B8820C3CAA700D9A5A7 /* RoundNineDemoViewController.m in Sources */,
 				35B13B9120C3CAA700D9A5A7 /* RoundTwoDemoViewController.m in Sources */,
@@ -804,7 +804,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 842FY2R32Y;
 				INFOPLIST_FILE = XLsn0wAppCrash/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -814,7 +816,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "XLsn0wAppCrash/XLsn0wAppCrash-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -824,7 +826,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 842FY2R32Y;
 				INFOPLIST_FILE = XLsn0wAppCrash/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -833,7 +837,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "XLsn0wAppCrash/XLsn0wAppCrash-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
